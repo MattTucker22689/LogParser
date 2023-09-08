@@ -4,6 +4,6 @@ The program aims to parse license usage data within time frames provided by user
 
 The GUI was designed using QT Creator.
 
-It was packaged using PyInstaller and Inno Setup for easy distribution throughout the office.
+I packaged it using PyInstaller and Inno Setup for easy distribution throughout the office.
 
 See requirements.txt for a list of other packages used.
