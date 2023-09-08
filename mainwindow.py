@@ -3,7 +3,6 @@ from datetime import datetime
 import sys
 import pandas as pd
 
-#from PyQt5.uic.properties import QtWidgets
 from PySide6.QtWidgets import QApplication, QMainWindow,  QPushButton, QFileDialog, QTableWidgetItem
 
 # Important:
