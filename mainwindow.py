@@ -115,9 +115,8 @@ class MainWindow(QMainWindow):
             df_db.to_csv(datetime.now().strftime('%H_%M_%S') + '_database.csv', sep='\t', encoding='utf-8', index=False)
         df_db['Start Time'] = pd.to_datetime(df_db['Start Time'])
         df_db['End Time'] = pd.to_datetime(df_db['End Time'])
-        start_date = self.getStart() # datetime.strptime(self.getStart(), '%b %d %Y %H:%M:%S').strftime('%Y-%m-%d %H:%M:%S')
-        end_date = self.getStop() # datetime.strptime(self.getStop(), '%b %d %Y %H:%M:%S').strftime('%Y-%m-%d %H:%M:%S')
-
+        start_date = self.getStart()
+        end_date = self.getStop()
         mask = (df_db['Start Time'] >= start_date)
         df_sel = df_db.loc[mask]
         mask = (df_sel['End Time'] <= end_date)
@@ -126,8 +125,7 @@ class MainWindow(QMainWindow):
             df_sel.to_csv(datetime.now().strftime('%H_%M_%S') + '__from_' + str(start_date) + '_until_' + str(end_date)
                           + '_database.csv', sep='\t', encoding='utf-8', index=False)
 
-        #self.ui.tableWidget.setModel(QTableWidgetItem(df_pres))
-        #self.ui.tableWidget.setItem(QTableWidgetItem(lic_inst))
+
         df_pres = df_pres.reset_index()
         r = 0
         for index, row in df_pres.iterrows():
