@@ -1,1 +1,7 @@
+The following repo is of a program I built during my flight test support engineer internship with QuickSilver Aerospace LLC.
 
+The program aims to parse license usage data within time frames provided by users through a simple-to-use GUI.
+
+The GUI was designed using QT Creator.
+
+It was packaged using PyInstaller and Inno Setup for easy distribution throughout the office.
