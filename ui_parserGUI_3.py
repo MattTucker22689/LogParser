@@ -259,7 +259,7 @@ class Ui_MainWindow(object):
     # setupUi
 
     def retranslateUi(self, MainWindow):
-        MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"MainWindow", None))
+        MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"Log Parser", None))
         self.label_3.setText(QCoreApplication.translate("MainWindow", u"QuickSilver Aerospace LLC Log File Parser", None))
         self.label.setText(QCoreApplication.translate("MainWindow", u"Start Date:", None))
         self.label_2.setText(QCoreApplication.translate("MainWindow", u"End Date:", None))
