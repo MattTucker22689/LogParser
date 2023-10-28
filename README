@@ -1,3 +1,11 @@
+*The conditions and requirements for this project to be completed successfully changed after the GUI solution was built. 
+
+The final solution can be found in the "fin" folder. It achieves the same goal; however, it does so without the aid of a GUI
+
+and the user inputs are hard coded. 
+
+__________________________________________________________________________________________________________________________
+
 The following repo is of a program I built during my flight test support engineer internship with QuickSilver Aerospace LLC.
 
 The program aims to parse license usage data within time frames provided by users through a simple-to-use GUI.
