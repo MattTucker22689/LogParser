@@ -24,7 +24,7 @@ from datetime import datetime
 import pandas as pd
 
 ########################################################################################################################
-# Welcome to the QuickSilver Log Data Parser
+# Welcome to Log Data Parser
 # ~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~
 # This program parses and organizes license usage data, reports a collection of log entries based on dates
 # specified by the user, and creates a .csv file of the results of the user's search and for every entry
