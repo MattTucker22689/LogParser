@@ -9,8 +9,6 @@ ________________________________________________________________________________
 
 *** Original:
 
-The following repo is of a program I built during my flight test support engineer internship with QuickSilver Aerospace LLC.
-
 The program aims to parse license usage data within time frames provided by users through a simple-to-use GUI.
 
 I designed the GUI using QT Creator.
